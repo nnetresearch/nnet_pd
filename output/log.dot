@@ -1,0 +1,19 @@
+digraph test {
+	12;
+	28 [shape=doublecircle];
+	13;
+	31;
+	7;
+	0;
+	0 -> 7 [label="a"];
+	7 -> 12 [label="b"];
+	12 -> 13 [label="c"];
+	13 -> 28 [label="#"];
+	12 -> 31 [label="d"];
+	31 -> 28 [label="#"];
+	0 -> 7 [label="b"];
+	7 -> 12 [label="c"];
+	7 -> 31 [label="d"];
+	31 -> 28 [label="c"];
+	28 -> 28 [label="e"];
+}
